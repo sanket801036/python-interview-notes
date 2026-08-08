@@ -66,17 +66,17 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] 3.8 Decorator (bahut poocha jata hai)
 - [x] 3.9 Recursion basics
 
-### Phase 4 — OOP (Object Oriented Programming)
-- [ ] 4.1 Class aur Object
-- [ ] 4.2 `__init__`, `self`
-- [ ] 4.3 Four pillars — Encapsulation, Abstraction, Inheritance, Polymorphism
-- [ ] 4.4 Types of inheritance + MRO (Method Resolution Order)
-- [ ] 4.5 Method overloading vs overriding
-- [ ] 4.6 instance method vs class method vs static method
-- [ ] 4.7 Dunder / magic methods (`__str__`, `__len__`, `__eq__`)
-- [ ] 4.8 `@property`, getters and setters
-- [ ] 4.9 Abstract class vs Interface
-- [ ] 4.10 Composition vs Inheritance
+### Phase 4 — OOP (Object Oriented Programming) ✅ DONE
+- [x] 4.1 Class aur Object
+- [x] 4.2 `__init__`, `self`
+- [x] 4.3 Four pillars — Encapsulation, Abstraction, Inheritance, Polymorphism
+- [x] 4.4 Types of inheritance + MRO (Method Resolution Order)
+- [x] 4.5 Method overloading vs overriding
+- [x] 4.6 instance method vs class method vs static method
+- [x] 4.7 Dunder / magic methods (`__str__`, `__len__`, `__eq__`)
+- [x] 4.8 `@property`, getters and setters
+- [x] 4.9 Abstract class vs Interface
+- [x] 4.10 Composition vs Inheritance
 
 ### Phase 5 — Advanced Python
 - [ ] 5.1 Iterator vs Iterable
