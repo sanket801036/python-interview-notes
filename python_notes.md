@@ -183,13 +183,13 @@ Level: **3-year experience** — surface definition nahi, depth wale answers
 - [x] D2.7 Transactions — atomic, select_for_update
 - [x] D2.8 Custom managers aur querysets
 
-### Django Phase 3 — Middleware, Auth, Signals, Caching
-- [ ] D3.1 Middleware — kaise kaam karta hai, custom likhna
-- [ ] D3.2 Signals — kab use, kab avoid
-- [ ] D3.3 Authentication — sessions, custom user model
-- [ ] D3.4 Permissions aur groups
-- [ ] D3.5 Security features — CSRF, XSS, SQL injection protection
-- [ ] D3.6 Caching — levels aur Redis
+### Django Phase 3 — Middleware, Auth, Signals, Caching ✅ DONE
+- [x] D3.1 Middleware — kaise kaam karta hai, custom likhna
+- [x] D3.2 Signals — kab use, kab avoid
+- [x] D3.3 Authentication — sessions, custom user model
+- [x] D3.4 Permissions aur groups
+- [x] D3.5 Security features — CSRF, XSS, SQL injection protection
+- [x] D3.6 Caching — levels aur Redis
 
 ### Django Phase 4 — Django REST Framework
 - [ ] D4.1 DRF kya hai, kyun
