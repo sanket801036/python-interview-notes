@@ -111,6 +111,7 @@ Repo: https://github.com/sanket801036/python-interview-notes
 | 2026-08-08 | Task file banayi. Topic list finalize kiya. |
 | 2026-08-08 | **Phase 1 complete** (6 topics). Word file bani, GitHub repo bana ke push kiya. |
 | 2026-08-08 | **Phase 2–6 complete.** 🎉 **PYTHON THEORY DONE — saare 52 topics Word file mein hain.** |
+| 2026-08-09 | **SQL Phases 1–5 complete.** 🎉 **SQL DONE — 34 topics, har topic mein example query.** |
 
 ---
 
@@ -158,15 +159,15 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S4.7 CTE (WITH clause)
 - [x] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
 
-### SQL Phase 5 — Interview Favourites
-- [ ] S5.1 DELETE vs TRUNCATE vs DROP
-- [ ] S5.2 WHERE vs HAVING
-- [ ] S5.3 Primary key vs Unique key
-- [ ] S5.4 CHAR vs VARCHAR vs TEXT
-- [ ] S5.5 Nth highest salary — approaches (theory)
-- [ ] S5.6 SQL injection aur bachav
-- [ ] S5.7 Query optimization tips
-- [ ] S5.8 OLTP vs OLAP
+### SQL Phase 5 — Interview Favourites ✅ DONE
+- [x] S5.1 DELETE vs TRUNCATE vs DROP
+- [x] S5.2 WHERE vs HAVING
+- [x] S5.3 Primary key vs Unique key
+- [x] S5.4 CHAR vs VARCHAR vs TEXT
+- [x] S5.5 Nth highest salary — approaches (theory)
+- [x] S5.6 SQL injection aur bachav
+- [x] S5.7 Query optimization tips
+- [x] S5.8 OLTP vs OLAP
 
 ---
 
