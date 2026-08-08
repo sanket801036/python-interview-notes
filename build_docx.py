@@ -1,32 +1,43 @@
-"""Build Python_Interview_Theory.docx from notes_content.py.
+"""Build interview-notes .docx files from content modules.
 
 Writes the OOXML by hand (zipfile + stdlib) so no external library is needed.
 Layout is tuned for printing: 9 pt body text, narrow margins, tight spacing.
+Topics may carry an optional "example" field, rendered as a monospace code box.
 
-Run:  python build_docx.py
+Run:  python build_docx.py            (builds every doc listed in DOCS)
+      python build_docx.py sql       (builds only that one)
 """
 
+import sys
 import zipfile
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from notes_content import CONTENT, DOC_SUBTITLE, DOC_TITLE
+HERE = Path(__file__).parent
 
-OUT = Path(__file__).with_name("Python_Interview_Theory.docx")
+# key -> (content module name, output file name)
+DOCS = {
+    "python": ("notes_content", "Python_Interview_Theory.docx"),
+    "sql": ("sql_content", "SQL_Interview_Theory.docx"),
+}
 
 # sizes are in half-points (18 = 9 pt); spacing and indents are in twips (1/20 pt)
 BODY_SZ = 18
+CODE_SZ = 17
 H1_SZ = 26
 H2_SZ = 21
 TITLE_SZ = 36
 LABEL_COLOR = "1F4E79"
 ANSWER_COLOR = "2E5E1F"
+CODE_COLOR = "3B3B3B"
 
 NS = ('xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"')
 
 
-def run(text, *, bold=False, italic=False, size=BODY_SZ, color=None):
+def run(text, *, bold=False, italic=False, size=BODY_SZ, color=None, mono=False):
     props = ""
+    if mono:
+        props += '<w:rFonts w:ascii="Consolas" w:hAnsi="Consolas" w:cs="Consolas"/>'
     if bold:
         props += "<w:b/>"
     if italic:
@@ -41,7 +52,7 @@ def run(text, *, bold=False, italic=False, size=BODY_SZ, color=None):
 
 
 def para(runs, *, before=0, after=40, indent=0, hanging=0, border=False,
-         align=None):
+         align=None, shade=None):
     pr = "<w:pPr>"
     if align:
         pr += f'<w:jc w:val="{align}"/>'
@@ -51,19 +62,21 @@ def para(runs, *, before=0, after=40, indent=0, hanging=0, border=False,
     if border:
         pr += ('<w:pBdr><w:left w:val="single" w:sz="12" w:space="4" '
                f'w:color="{ANSWER_COLOR}"/></w:pBdr>')
+    if shade:
+        pr += f'<w:shd w:val="clear" w:color="auto" w:fill="{shade}"/>'
     pr += "</w:pPr>"
     return f"<w:p>{pr}{''.join(runs)}</w:p>"
 
 
-def build_body() -> str:
+def build_body(content, title, subtitle) -> str:
     parts = [
-        para([run(DOC_TITLE, bold=True, size=TITLE_SZ, color=LABEL_COLOR)],
+        para([run(title, bold=True, size=TITLE_SZ, color=LABEL_COLOR)],
              after=20, align="center"),
-        para([run(DOC_SUBTITLE, italic=True, size=BODY_SZ)],
+        para([run(subtitle, italic=True, size=BODY_SZ)],
              after=160, align="center"),
     ]
 
-    for phase in CONTENT:
+    for phase in content:
         parts.append(
             para([run(phase["phase"], bold=True, size=H1_SZ, color=LABEL_COLOR)],
                  before=200, after=60)
@@ -81,6 +94,15 @@ def build_body() -> str:
                 parts.append(
                     para([run("•   "), run(point)],
                          indent=260, hanging=200, after=25)
+                )
+            example_lines = topic.get("example", "").splitlines()
+            for i, line in enumerate(example_lines):
+                runs = []
+                if i == 0:
+                    runs.append(run("Example:  ", bold=True, size=CODE_SZ))
+                runs.append(run(line, mono=True, size=CODE_SZ, color=CODE_COLOR))
+                parts.append(
+                    para(runs, indent=260, after=15, shade="F2F2F2")
                 )
             parts.append(
                 para([run("Interview answer:  ", bold=True, color=ANSWER_COLOR),
@@ -138,17 +160,28 @@ DOC_RELS = (
 )
 
 
-def main():
-    with zipfile.ZipFile(OUT, "w", zipfile.ZIP_DEFLATED) as z:
+def build_one(key):
+    module_name, out_name = DOCS[key]
+    try:
+        module = __import__(module_name)
+    except ImportError:
+        print(f"skip {key}: {module_name}.py not found")
+        return
+
+    out = HERE / out_name
+    body = build_body(module.CONTENT, module.DOC_TITLE, module.DOC_SUBTITLE)
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("[Content_Types].xml", CONTENT_TYPES)
         z.writestr("_rels/.rels", RELS)
         z.writestr("word/_rels/document.xml.rels", DOC_RELS)
         z.writestr("word/styles.xml", STYLES)
-        z.writestr("word/document.xml", DOCUMENT.format(body=build_body()))
+        z.writestr("word/document.xml", DOCUMENT.format(body=body))
 
-    topics = sum(len(p["topics"]) for p in CONTENT)
-    print(f"Wrote {OUT.name}  ({len(CONTENT)} phase(s), {topics} topic(s))")
+    topics = sum(len(p["topics"]) for p in module.CONTENT)
+    print(f"Wrote {out.name}  ({len(module.CONTENT)} phase(s), {topics} topic(s))")
 
 
 if __name__ == "__main__":
-    main()
+    keys = sys.argv[1:] or list(DOCS)
+    for key in keys:
+        build_one(key)

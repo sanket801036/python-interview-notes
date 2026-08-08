@@ -116,9 +116,57 @@ Repo: https://github.com/sanket801036/python-interview-notes
 
 ## Next Step
 
-✅ Python theory poori ho gayi (52/52 topics).
-Aage optionally: code examples wala phase, ya naye subjects — SQL,
-Django/FastAPI, ya AI/GenAI (RAG, LangChain) interview notes. Sanket bataye.
+✅ Python theory poori (52/52). ➡️ Ab **SQL** chal raha hai (niche list).
+
+---
+
+# SQL Interview Notes
+
+**Output:** `SQL_Interview_Theory.docx` · **Content:** `sql_content.py` · Same rules (simple English, small font) **+ har topic ke saath chhota example query** (Sanket ne 09 Aug ko bola).
+
+### SQL Phase 1 — Basics ✅ DONE
+- [x] S1.1 SQL kya hai, database, DBMS vs RDBMS
+- [x] S1.2 SQL command types — DDL, DML, DQL, DCL, TCL
+- [x] S1.3 Common data types
+- [x] S1.4 Constraints — NOT NULL, UNIQUE, CHECK, DEFAULT
+- [x] S1.5 Primary Key vs Foreign Key
+- [x] S1.6 NULL — behavior, IS NULL, COALESCE
+
+### SQL Phase 2 — Core Queries
+- [ ] S2.1 SELECT, WHERE, operators (IN, BETWEEN, LIKE)
+- [ ] S2.2 DISTINCT, ORDER BY, LIMIT/OFFSET
+- [ ] S2.3 Aggregate functions — COUNT, SUM, AVG, MIN, MAX
+- [ ] S2.4 GROUP BY aur HAVING
+- [ ] S2.5 String & date functions (common)
+- [ ] S2.6 CASE expression
+
+### SQL Phase 3 — Joins & Subqueries
+- [ ] S3.1 JOIN kya hai + INNER JOIN
+- [ ] S3.2 LEFT, RIGHT, FULL OUTER JOIN
+- [ ] S3.3 CROSS JOIN aur SELF JOIN
+- [ ] S3.4 UNION vs UNION ALL
+- [ ] S3.5 Subqueries — single row, multi row, correlated
+- [ ] S3.6 EXISTS vs IN
+
+### SQL Phase 4 — Advanced
+- [ ] S4.1 Indexes — kaise kaam karte hain, kab lagayein
+- [ ] S4.2 Views
+- [ ] S4.3 Stored procedures aur triggers
+- [ ] S4.4 Transactions aur ACID
+- [ ] S4.5 Isolation levels aur common problems
+- [ ] S4.6 Window functions — ROW_NUMBER, RANK, PARTITION BY
+- [ ] S4.7 CTE (WITH clause)
+- [ ] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
+
+### SQL Phase 5 — Interview Favourites
+- [ ] S5.1 DELETE vs TRUNCATE vs DROP
+- [ ] S5.2 WHERE vs HAVING
+- [ ] S5.3 Primary key vs Unique key
+- [ ] S5.4 CHAR vs VARCHAR vs TEXT
+- [ ] S5.5 Nth highest salary — approaches (theory)
+- [ ] S5.6 SQL injection aur bachav
+- [ ] S5.7 Query optimization tips
+- [ ] S5.8 OLTP vs OLAP
 
 ---
 
