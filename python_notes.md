@@ -159,6 +159,56 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S4.7 CTE (WITH clause)
 - [x] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
 
+# Django Interview Notes
+
+**Output:** `Django_Interview_Theory.docx` · **Content:** `django_content.py` ·
+Level: **3-year experience** — surface definition nahi, depth wale answers
+(ORM internals, N+1, DRF, deployment). Har topic mein example. (10 Aug ko shuru.)
+
+### Django Phase 1 — Core Architecture ✅ DONE
+- [x] D1.1 Django kya hai, MTV pattern, batteries-included
+- [x] D1.2 Request/response cycle — WSGI se view tak
+- [x] D1.3 Project vs app, settings ka structure
+- [x] D1.4 URL routing, path converters, reverse()
+- [x] D1.5 FBV vs CBV — kab kaunsa
+- [x] D1.6 Templates (short — API dev ke liye kaam bhar)
+
+### Django Phase 2 — Models & ORM (sabse important)
+- [ ] D2.1 Models aur migrations ka flow
+- [ ] D2.2 QuerySet — lazy evaluation, caching
+- [ ] D2.3 select_related vs prefetch_related — N+1 problem
+- [ ] D2.4 F objects, Q objects, aggregation
+- [ ] D2.5 Relationships — FK, OneToOne, ManyToMany, related_name
+- [ ] D2.6 Model inheritance — abstract, multi-table, proxy
+- [ ] D2.7 Transactions — atomic, select_for_update
+- [ ] D2.8 Custom managers aur querysets
+
+### Django Phase 3 — Middleware, Auth, Signals, Caching
+- [ ] D3.1 Middleware — kaise kaam karta hai, custom likhna
+- [ ] D3.2 Signals — kab use, kab avoid
+- [ ] D3.3 Authentication — sessions, custom user model
+- [ ] D3.4 Permissions aur groups
+- [ ] D3.5 Security features — CSRF, XSS, SQL injection protection
+- [ ] D3.6 Caching — levels aur Redis
+
+### Django Phase 4 — Django REST Framework
+- [ ] D4.1 DRF kya hai, kyun
+- [ ] D4.2 Serializers — validation, nested, SerializerMethodField
+- [ ] D4.3 APIView vs generics vs ViewSet + routers
+- [ ] D4.4 Authentication — Token, JWT, session
+- [ ] D4.5 Permissions aur throttling
+- [ ] D4.6 Pagination, filtering, searching
+- [ ] D4.7 DRF testing basics
+
+### Django Phase 5 — Production & Interview Favourites
+- [ ] D5.1 Django vs Flask vs FastAPI
+- [ ] D5.2 N+1 detect karna — debug toolbar, query counting
+- [ ] D5.3 Static vs media files, production serving
+- [ ] D5.4 Deployment — gunicorn, nginx, ASGI
+- [ ] D5.5 Performance tips — experienced-level checklist
+- [ ] D5.6 Celery — background tasks
+- [ ] D5.7 Django async views — kab helpful, limits
+
 ### SQL Phase 5 — Interview Favourites ✅ DONE
 - [x] S5.1 DELETE vs TRUNCATE vs DROP
 - [x] S5.2 WHERE vs HAVING
