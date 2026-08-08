@@ -55,16 +55,16 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] 2.6 List vs Tuple vs Set vs Dict (comparison table)
 - [x] 2.7 Shallow copy vs Deep copy
 
-### Phase 3 — Functions
-- [ ] 3.1 Function basics, return
-- [ ] 3.2 *args and **kwargs
-- [ ] 3.3 Default arguments — mutable default ka trap
-- [ ] 3.4 Scope — Local, Enclosing, Global, Built-in (LEGB)
-- [ ] 3.5 Lambda function
-- [ ] 3.6 map, filter, reduce
-- [ ] 3.7 Closure
-- [ ] 3.8 Decorator (bahut poocha jata hai)
-- [ ] 3.9 Recursion basics
+### Phase 3 — Functions ✅ DONE
+- [x] 3.1 Function basics, return
+- [x] 3.2 *args and **kwargs
+- [x] 3.3 Default arguments — mutable default ka trap
+- [x] 3.4 Scope — Local, Enclosing, Global, Built-in (LEGB)
+- [x] 3.5 Lambda function
+- [x] 3.6 map, filter, reduce
+- [x] 3.7 Closure
+- [x] 3.8 Decorator (bahut poocha jata hai)
+- [x] 3.9 Recursion basics
 
 ### Phase 4 — OOP (Object Oriented Programming)
 - [ ] 4.1 Class aur Object
