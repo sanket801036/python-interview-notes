@@ -92,15 +92,15 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] 5.11 Modules, packages, `__name__ == "__main__"`
 - [x] 5.12 Virtual environment aur pip
 
-### Phase 6 — Interview Favourites (mixed)
-- [ ] 6.1 `is` vs `==`
-- [ ] 6.2 Memory management in Python
-- [ ] 6.3 Pass by value vs pass by reference
-- [ ] 6.4 Monkey patching
-- [ ] 6.5 `__new__` vs `__init__`
-- [ ] 6.6 Duck typing
-- [ ] 6.7 Python ke performance tips
-- [ ] 6.8 Common built-in functions (zip, enumerate, any, all, sorted)
+### Phase 6 — Interview Favourites (mixed) ✅ DONE
+- [x] 6.1 `is` vs `==`
+- [x] 6.2 Memory management in Python
+- [x] 6.3 Pass by value vs pass by reference
+- [x] 6.4 Monkey patching
+- [x] 6.5 `__new__` vs `__init__`
+- [x] 6.6 Duck typing
+- [x] 6.7 Python ke performance tips
+- [x] 6.8 Common built-in functions (zip, enumerate, any, all, sorted)
 
 ---
 
@@ -110,13 +110,15 @@ Repo: https://github.com/sanket801036/python-interview-notes
 |---|---|
 | 2026-08-08 | Task file banayi. Topic list finalize kiya. |
 | 2026-08-08 | **Phase 1 complete** (6 topics). Word file bani, GitHub repo bana ke push kiya. |
+| 2026-08-08 | **Phase 2–6 complete.** 🎉 **PYTHON THEORY DONE — saare 52 topics Word file mein hain.** |
 
 ---
 
 ## Next Step
 
-➡️ **Phase 2 — Data Structures** (7 topics: List, Tuple, Set, Dict, String,
-comparison table, shallow vs deep copy)
+✅ Python theory poori ho gayi (52/52 topics).
+Aage optionally: code examples wala phase, ya naye subjects — SQL,
+Django/FastAPI, ya AI/GenAI (RAG, LangChain) interview notes. Sanket bataye.
 
 ---
 
