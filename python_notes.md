@@ -140,13 +140,13 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S2.5 String & date functions (common)
 - [x] S2.6 CASE expression
 
-### SQL Phase 3 — Joins & Subqueries
-- [ ] S3.1 JOIN kya hai + INNER JOIN
-- [ ] S3.2 LEFT, RIGHT, FULL OUTER JOIN
-- [ ] S3.3 CROSS JOIN aur SELF JOIN
-- [ ] S3.4 UNION vs UNION ALL
-- [ ] S3.5 Subqueries — single row, multi row, correlated
-- [ ] S3.6 EXISTS vs IN
+### SQL Phase 3 — Joins & Subqueries ✅ DONE
+- [x] S3.1 JOIN kya hai + INNER JOIN
+- [x] S3.2 LEFT, RIGHT, FULL OUTER JOIN
+- [x] S3.3 CROSS JOIN aur SELF JOIN
+- [x] S3.4 UNION vs UNION ALL
+- [x] S3.5 Subqueries — single row, multi row, correlated
+- [x] S3.6 EXISTS vs IN
 
 ### SQL Phase 4 — Advanced
 - [ ] S4.1 Indexes — kaise kaam karte hain, kab lagayein
