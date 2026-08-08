@@ -1,0 +1,8 @@
+.claude/
+__pycache__/
+*.pyc
+
+# unrelated local files
+JavaScript_Essentials*.docx
+React_Learning.docx
+eqwfqwefwef.txt
