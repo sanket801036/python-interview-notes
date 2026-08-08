@@ -132,13 +132,13 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S1.5 Primary Key vs Foreign Key
 - [x] S1.6 NULL — behavior, IS NULL, COALESCE
 
-### SQL Phase 2 — Core Queries
-- [ ] S2.1 SELECT, WHERE, operators (IN, BETWEEN, LIKE)
-- [ ] S2.2 DISTINCT, ORDER BY, LIMIT/OFFSET
-- [ ] S2.3 Aggregate functions — COUNT, SUM, AVG, MIN, MAX
-- [ ] S2.4 GROUP BY aur HAVING
-- [ ] S2.5 String & date functions (common)
-- [ ] S2.6 CASE expression
+### SQL Phase 2 — Core Queries ✅ DONE
+- [x] S2.1 SELECT, WHERE, operators (IN, BETWEEN, LIKE)
+- [x] S2.2 DISTINCT, ORDER BY, LIMIT/OFFSET
+- [x] S2.3 Aggregate functions — COUNT, SUM, AVG, MIN, MAX
+- [x] S2.4 GROUP BY aur HAVING
+- [x] S2.5 String & date functions (common)
+- [x] S2.6 CASE expression
 
 ### SQL Phase 3 — Joins & Subqueries
 - [ ] S3.1 JOIN kya hai + INNER JOIN
