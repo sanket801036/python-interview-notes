@@ -148,15 +148,15 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S3.5 Subqueries — single row, multi row, correlated
 - [x] S3.6 EXISTS vs IN
 
-### SQL Phase 4 — Advanced
-- [ ] S4.1 Indexes — kaise kaam karte hain, kab lagayein
-- [ ] S4.2 Views
-- [ ] S4.3 Stored procedures aur triggers
-- [ ] S4.4 Transactions aur ACID
-- [ ] S4.5 Isolation levels aur common problems
-- [ ] S4.6 Window functions — ROW_NUMBER, RANK, PARTITION BY
-- [ ] S4.7 CTE (WITH clause)
-- [ ] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
+### SQL Phase 4 — Advanced ✅ DONE
+- [x] S4.1 Indexes — kaise kaam karte hain, kab lagayein
+- [x] S4.2 Views
+- [x] S4.3 Stored procedures aur triggers
+- [x] S4.4 Transactions aur ACID
+- [x] S4.5 Isolation levels aur common problems
+- [x] S4.6 Window functions — ROW_NUMBER, RANK, PARTITION BY
+- [x] S4.7 CTE (WITH clause)
+- [x] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
 
 ### SQL Phase 5 — Interview Favourites
 - [ ] S5.1 DELETE vs TRUNCATE vs DROP
