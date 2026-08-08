@@ -191,14 +191,14 @@ Level: **3-year experience** — surface definition nahi, depth wale answers
 - [x] D3.5 Security features — CSRF, XSS, SQL injection protection
 - [x] D3.6 Caching — levels aur Redis
 
-### Django Phase 4 — Django REST Framework
-- [ ] D4.1 DRF kya hai, kyun
-- [ ] D4.2 Serializers — validation, nested, SerializerMethodField
-- [ ] D4.3 APIView vs generics vs ViewSet + routers
-- [ ] D4.4 Authentication — Token, JWT, session
-- [ ] D4.5 Permissions aur throttling
-- [ ] D4.6 Pagination, filtering, searching
-- [ ] D4.7 DRF testing basics
+### Django Phase 4 — Django REST Framework ✅ DONE
+- [x] D4.1 DRF kya hai, kyun
+- [x] D4.2 Serializers — validation, nested, SerializerMethodField
+- [x] D4.3 APIView vs generics vs ViewSet + routers
+- [x] D4.4 Authentication — Token, JWT, session
+- [x] D4.5 Permissions aur throttling
+- [x] D4.6 Pagination, filtering, searching
+- [x] D4.7 DRF testing basics
 
 ### Django Phase 5 — Production & Interview Favourites
 - [ ] D5.1 Django vs Flask vs FastAPI
