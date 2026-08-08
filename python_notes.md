@@ -78,19 +78,19 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] 4.9 Abstract class vs Interface
 - [x] 4.10 Composition vs Inheritance
 
-### Phase 5 — Advanced Python
-- [ ] 5.1 Iterator vs Iterable
-- [ ] 5.2 Generator aur `yield` (memory benefit)
-- [ ] 5.3 List comprehension vs generator expression
-- [ ] 5.4 Context manager aur `with` statement
-- [ ] 5.5 Exception handling — try, except, else, finally
-- [ ] 5.6 Custom exceptions
-- [ ] 5.7 Garbage collection aur reference counting
-- [ ] 5.8 GIL (Global Interpreter Lock) — bahut poocha jata hai
-- [ ] 5.9 Multithreading vs Multiprocessing (kab kaunsa)
-- [ ] 5.10 async / await — asyncio basics
-- [ ] 5.11 Modules, packages, `__name__ == "__main__"`
-- [ ] 5.12 Virtual environment aur pip
+### Phase 5 — Advanced Python ✅ DONE
+- [x] 5.1 Iterator vs Iterable
+- [x] 5.2 Generator aur `yield` (memory benefit)
+- [x] 5.3 List comprehension vs generator expression
+- [x] 5.4 Context manager aur `with` statement
+- [x] 5.5 Exception handling — try, except, else, finally
+- [x] 5.6 Custom exceptions
+- [x] 5.7 Garbage collection aur reference counting
+- [x] 5.8 GIL (Global Interpreter Lock) — bahut poocha jata hai
+- [x] 5.9 Multithreading vs Multiprocessing (kab kaunsa)
+- [x] 5.10 async / await — asyncio basics
+- [x] 5.11 Modules, packages, `__name__ == "__main__"`
+- [x] 5.12 Virtual environment aur pip
 
 ### Phase 6 — Interview Favourites (mixed)
 - [ ] 6.1 `is` vs `==`
