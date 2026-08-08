@@ -173,15 +173,15 @@ Level: **3-year experience** — surface definition nahi, depth wale answers
 - [x] D1.5 FBV vs CBV — kab kaunsa
 - [x] D1.6 Templates (short — API dev ke liye kaam bhar)
 
-### Django Phase 2 — Models & ORM (sabse important)
-- [ ] D2.1 Models aur migrations ka flow
-- [ ] D2.2 QuerySet — lazy evaluation, caching
-- [ ] D2.3 select_related vs prefetch_related — N+1 problem
-- [ ] D2.4 F objects, Q objects, aggregation
-- [ ] D2.5 Relationships — FK, OneToOne, ManyToMany, related_name
-- [ ] D2.6 Model inheritance — abstract, multi-table, proxy
-- [ ] D2.7 Transactions — atomic, select_for_update
-- [ ] D2.8 Custom managers aur querysets
+### Django Phase 2 — Models & ORM (sabse important) ✅ DONE
+- [x] D2.1 Models aur migrations ka flow
+- [x] D2.2 QuerySet — lazy evaluation, caching
+- [x] D2.3 select_related vs prefetch_related — N+1 problem
+- [x] D2.4 F objects, Q objects, aggregation
+- [x] D2.5 Relationships — FK, OneToOne, ManyToMany, related_name
+- [x] D2.6 Model inheritance — abstract, multi-table, proxy
+- [x] D2.7 Transactions — atomic, select_for_update
+- [x] D2.8 Custom managers aur querysets
 
 ### Django Phase 3 — Middleware, Auth, Signals, Caching
 - [ ] D3.1 Middleware — kaise kaam karta hai, custom likhna
