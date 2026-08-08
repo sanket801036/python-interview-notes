@@ -46,14 +46,14 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] 1.5 Variables, memory, reference vs value
 - [x] 1.6 Type casting / type conversion
 
-### Phase 2 — Data Structures
-- [ ] 2.1 List — kab use karein, kaise kaam karta hai
-- [ ] 2.2 Tuple — list se difference
-- [ ] 2.3 Set — uniqueness, hashing
-- [ ] 2.4 Dictionary — key-value, hashing, ordering
-- [ ] 2.5 String — immutability, common operations
-- [ ] 2.6 List vs Tuple vs Set vs Dict (comparison table)
-- [ ] 2.7 Shallow copy vs Deep copy
+### Phase 2 — Data Structures ✅ DONE
+- [x] 2.1 List — kab use karein, kaise kaam karta hai
+- [x] 2.2 Tuple — list se difference
+- [x] 2.3 Set — uniqueness, hashing
+- [x] 2.4 Dictionary — key-value, hashing, ordering
+- [x] 2.5 String — immutability, common operations
+- [x] 2.6 List vs Tuple vs Set vs Dict (comparison table)
+- [x] 2.7 Shallow copy vs Deep copy
 
 ### Phase 3 — Functions
 - [ ] 3.1 Function basics, return
