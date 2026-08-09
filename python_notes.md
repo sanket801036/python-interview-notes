@@ -160,6 +160,29 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S4.7 CTE (WITH clause)
 - [x] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
 
+# FastAPI Interview Notes (compact)
+
+**Output:** `FastAPI_Interview_Theory.docx` · **Content:** `fastapi_content.py` ·
+Compact — 2 phases, FastAPI-specific topics only (Django-overlap skip). Baad mein React.
+
+### FastAPI Phase 1 — Core ✅ DONE
+- [x] F1.1 FastAPI kya hai, kyun fast, Starlette + Pydantic
+- [x] F1.2 Path & query parameters — type hints se validation
+- [x] F1.3 Pydantic models — request body, validation
+- [x] F1.4 response_model aur status codes
+- [x] F1.5 Dependency Injection — Depends()
+- [x] F1.6 async vs sync endpoints — kab kya
+- [x] F1.7 Error handling — HTTPException, custom handlers
+
+### FastAPI Phase 2 — Production
+- [ ] F2.1 Routers — project structure
+- [ ] F2.2 Middleware aur CORS
+- [ ] F2.3 Auth — OAuth2 password flow + JWT
+- [ ] F2.4 Database — SQLAlchemy session pattern
+- [ ] F2.5 BackgroundTasks vs Celery
+- [ ] F2.6 Testing — TestClient
+- [ ] F2.7 Auto docs (Swagger) aur deployment (uvicorn workers)
+
 # Django Interview Notes
 
 **Output:** `Django_Interview_Theory.docx` · **Content:** `django_content.py` ·

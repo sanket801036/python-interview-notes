@@ -20,6 +20,7 @@ DOCS = {
     "python": ("notes_content", "Python_Interview_Theory.docx"),
     "sql": ("sql_content", "SQL_Interview_Theory.docx"),
     "django": ("django_content", "Django_Interview_Theory.docx"),
+    "fastapi": ("fastapi_content", "FastAPI_Interview_Theory.docx"),
 }
 
 # sizes are in half-points (18 = 9 pt); spacing and indents are in twips (1/20 pt)
