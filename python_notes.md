@@ -161,6 +161,38 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S4.7 CTE (WITH clause)
 - [x] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
 
+# React Interview Notes
+
+**Output:** `React_Interview_Theory.docx` · **Content:** `react_content.py` ·
+3-YOE depth, JSX examples. React Native/Expo touch bhi (Fabric Dispatch app ke liye).
+
+### React Phase 1 — Fundamentals ✅ DONE
+- [x] R1.1 React kya hai — Virtual DOM, JSX
+- [x] R1.2 Components aur Props
+- [x] R1.3 State — useState, immutability
+- [x] R1.4 Rendering, reconciliation, keys
+- [x] R1.5 Conditional rendering aur lists
+- [x] R1.6 Forms — controlled vs uncontrolled
+- [x] R1.7 useEffect — lifecycle ki jagah
+
+### React Phase 2 — Hooks & State Management
+- [ ] R2.1 useEffect deep — dependencies, cleanup, common bugs
+- [ ] R2.2 useMemo, useCallback, React.memo
+- [ ] R2.3 useRef — DOM access aur mutable values
+- [ ] R2.4 Custom hooks
+- [ ] R2.5 Context API — props drilling ka solution
+- [ ] R2.6 Redux / Zustand — global state kab chahiye
+- [ ] R2.7 Lifting state up, composition patterns
+
+### React Phase 3 — Ecosystem & Production
+- [ ] R3.1 React Router
+- [ ] R3.2 API calls — fetching patterns, React Query
+- [ ] R3.3 Performance optimization checklist
+- [ ] R3.4 Code splitting — React.lazy, Suspense
+- [ ] R3.5 Error boundaries
+- [ ] R3.6 React 18 — concurrent features, batching
+- [ ] R3.7 React Native / Expo — web se difference
+
 # FastAPI Interview Notes (compact)
 
 **Output:** `FastAPI_Interview_Theory.docx` · **Content:** `fastapi_content.py` ·
