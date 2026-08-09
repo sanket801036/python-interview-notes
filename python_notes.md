@@ -185,12 +185,12 @@ Resume-aligned (ECS, ECR, App Runner, IAM, ALB resume mein hain — deep cover).
 - [x] A2.6 ALB + Auto Scaling (resume item)
 - [x] A2.7 Lambda — serverless, kab use, limits
 
-### AWS Phase 3 — Data & Messaging
-- [ ] A3.1 RDS — managed Postgres/MySQL, Multi-AZ vs read replica
-- [ ] A3.2 ElastiCache — Redis on AWS
-- [ ] A3.3 DynamoDB — kab NoSQL (short)
-- [ ] A3.4 SQS/SNS — queues aur pub-sub
-- [ ] A3.5 Route 53 + CloudFront — DNS aur CDN
+### AWS Phase 3 — Data & Messaging ✅ DONE
+- [x] A3.1 RDS — managed Postgres/MySQL, Multi-AZ vs read replica
+- [x] A3.2 ElastiCache — Redis on AWS
+- [x] A3.3 DynamoDB — kab NoSQL (short)
+- [x] A3.4 SQS/SNS — queues aur pub-sub
+- [x] A3.5 Route 53 + CloudFront — DNS aur CDN
 
 ### AWS Phase 4 — DevOps & Production
 - [ ] A4.1 CloudWatch — logs, metrics, alarms
