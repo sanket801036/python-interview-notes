@@ -175,14 +175,14 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] R1.6 Forms — controlled vs uncontrolled
 - [x] R1.7 useEffect — lifecycle ki jagah
 
-### React Phase 2 — Hooks & State Management
-- [ ] R2.1 useEffect deep — dependencies, cleanup, common bugs
-- [ ] R2.2 useMemo, useCallback, React.memo
-- [ ] R2.3 useRef — DOM access aur mutable values
-- [ ] R2.4 Custom hooks
-- [ ] R2.5 Context API — props drilling ka solution
-- [ ] R2.6 Redux / Zustand — global state kab chahiye
-- [ ] R2.7 Lifting state up, composition patterns
+### React Phase 2 — Hooks & State Management ✅ DONE
+- [x] R2.1 useEffect deep — dependencies, cleanup, common bugs
+- [x] R2.2 useMemo, useCallback, React.memo
+- [x] R2.3 useRef — DOM access aur mutable values
+- [x] R2.4 Custom hooks
+- [x] R2.5 Context API — props drilling ka solution
+- [x] R2.6 Redux / Zustand — global state kab chahiye
+- [x] R2.7 Lifting state up, composition patterns
 
 ### React Phase 3 — Ecosystem & Production
 - [ ] R3.1 React Router
