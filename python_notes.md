@@ -114,7 +114,8 @@ Repo: https://github.com/sanket801036/python-interview-notes
 | 2026-08-09 | **SQL Phases 1–5 complete.** 🎉 **SQL DONE — 34 topics, har topic mein example query.** |
 | 2026-08-10 | **Django Phases 1–5 complete.** 🎉 **DJANGO DONE — 34 topics, 3-YOE depth, examples ke saath.** |
 | 2026-08-10 | **FastAPI Phases 1–2 complete.** 🎉 **FASTAPI DONE — 14 topics (compact).** |
-| 2026-08-10 | **React Phases 1–3 complete.** 🎉 **REACT DONE — 21 topics + React Native/Expo.** Total ab: 5 docs, 155 topics. |
+| 2026-08-10 | **React Phases 1–3 complete.** 🎉 **REACT DONE — 21 topics + React Native/Expo.** |
+| 2026-08-10 | **AWS Phases 1–4 complete.** 🎉 **AWS DONE — 24 topics, resume-aligned.** Total ab: 6 docs, 179 topics. |
 
 ---
 
@@ -192,13 +193,13 @@ Resume-aligned (ECS, ECR, App Runner, IAM, ALB resume mein hain — deep cover).
 - [x] A3.4 SQS/SNS — queues aur pub-sub
 - [x] A3.5 Route 53 + CloudFront — DNS aur CDN
 
-### AWS Phase 4 — DevOps & Production
-- [ ] A4.1 CloudWatch — logs, metrics, alarms
-- [ ] A4.2 CI/CD to AWS — Jenkins pipeline flow (resume item)
-- [ ] A4.3 Secrets management — SSM, Secrets Manager
-- [ ] A4.4 Security best practices — least privilege, no root keys
-- [ ] A4.5 Cost optimization — 3-YOE level answers
-- [ ] A4.6 Architecture walkthrough — RAG chatbot on AWS (resume story)
+### AWS Phase 4 — DevOps & Production ✅ DONE
+- [x] A4.1 CloudWatch — logs, metrics, alarms
+- [x] A4.2 CI/CD to AWS — Jenkins pipeline flow (resume item)
+- [x] A4.3 Secrets management — SSM, Secrets Manager
+- [x] A4.4 Security best practices — least privilege, no root keys
+- [x] A4.5 Cost optimization — 3-YOE level answers
+- [x] A4.6 Architecture walkthrough — RAG chatbot on AWS (resume story)
 
 # React Interview Notes
 
