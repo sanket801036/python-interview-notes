@@ -162,6 +162,44 @@ Repo: https://github.com/sanket801036/python-interview-notes
 - [x] S4.7 CTE (WITH clause)
 - [x] S4.8 Normalization — 1NF, 2NF, 3NF + denormalization
 
+# AWS / Cloud Interview Notes
+
+**Output:** `AWS_Interview_Theory.docx` · **Content:** `aws_content.py` ·
+Resume-aligned (ECS, ECR, App Runner, IAM, ALB resume mein hain — deep cover).
+3-YOE depth + examples (CLI/config).
+
+### AWS Phase 1 — Core Concepts ✅ DONE
+- [x] A1.1 AWS kya hai — regions, AZs, shared responsibility
+- [x] A1.2 IAM — users, roles, policies (resume item)
+- [x] A1.3 EC2 — instances, AMI, security groups
+- [x] A1.4 S3 — buckets, storage classes, presigned URLs
+- [x] A1.5 VPC basics — subnets, SG vs NACL, IGW/NAT
+- [x] A1.6 Pricing model — on-demand, reserved, spot, free tier
+
+### AWS Phase 2 — Compute & Containers (resume core)
+- [ ] A2.1 Docker recap — image, container, Dockerfile (interview angle)
+- [ ] A2.2 ECR — registry, push flow (resume item)
+- [ ] A2.3 ECS — cluster, task definition, service (resume item)
+- [ ] A2.4 Fargate vs EC2 launch type
+- [ ] A2.5 App Runner — kab sahi (resume item)
+- [ ] A2.6 ALB + Auto Scaling (resume item)
+- [ ] A2.7 Lambda — serverless, kab use, limits
+
+### AWS Phase 3 — Data & Messaging
+- [ ] A3.1 RDS — managed Postgres/MySQL, Multi-AZ vs read replica
+- [ ] A3.2 ElastiCache — Redis on AWS
+- [ ] A3.3 DynamoDB — kab NoSQL (short)
+- [ ] A3.4 SQS/SNS — queues aur pub-sub
+- [ ] A3.5 Route 53 + CloudFront — DNS aur CDN
+
+### AWS Phase 4 — DevOps & Production
+- [ ] A4.1 CloudWatch — logs, metrics, alarms
+- [ ] A4.2 CI/CD to AWS — Jenkins pipeline flow (resume item)
+- [ ] A4.3 Secrets management — SSM, Secrets Manager
+- [ ] A4.4 Security best practices — least privilege, no root keys
+- [ ] A4.5 Cost optimization — 3-YOE level answers
+- [ ] A4.6 Architecture walkthrough — RAG chatbot on AWS (resume story)
+
 # React Interview Notes
 
 **Output:** `React_Interview_Theory.docx` · **Content:** `react_content.py` ·
