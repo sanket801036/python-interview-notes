@@ -176,14 +176,14 @@ Resume-aligned (ECS, ECR, App Runner, IAM, ALB resume mein hain — deep cover).
 - [x] A1.5 VPC basics — subnets, SG vs NACL, IGW/NAT
 - [x] A1.6 Pricing model — on-demand, reserved, spot, free tier
 
-### AWS Phase 2 — Compute & Containers (resume core)
-- [ ] A2.1 Docker recap — image, container, Dockerfile (interview angle)
-- [ ] A2.2 ECR — registry, push flow (resume item)
-- [ ] A2.3 ECS — cluster, task definition, service (resume item)
-- [ ] A2.4 Fargate vs EC2 launch type
-- [ ] A2.5 App Runner — kab sahi (resume item)
-- [ ] A2.6 ALB + Auto Scaling (resume item)
-- [ ] A2.7 Lambda — serverless, kab use, limits
+### AWS Phase 2 — Compute & Containers (resume core) ✅ DONE
+- [x] A2.1 Docker recap — image, container, Dockerfile (interview angle)
+- [x] A2.2 ECR — registry, push flow (resume item)
+- [x] A2.3 ECS — cluster, task definition, service (resume item)
+- [x] A2.4 Fargate vs EC2 launch type
+- [x] A2.5 App Runner — kab sahi (resume item)
+- [x] A2.6 ALB + Auto Scaling (resume item)
+- [x] A2.7 Lambda — serverless, kab use, limits
 
 ### AWS Phase 3 — Data & Messaging
 - [ ] A3.1 RDS — managed Postgres/MySQL, Multi-AZ vs read replica
